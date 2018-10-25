@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+ font-family: "ExtraLight";
+ src: url('fonts/extralight.otf');
+ src: local("ExtraLight"), url('fonts/extralight.otf') format("truetype");
+ }
+ @font-face {
+  font-family: "Light";
+  src: url('fonts/light.otf');
+  src: local("Light"), url('fonts/light.otf') format("truetype");
+  }
+@font-face {
+ font-family: "Regular";
+ src: url('fonts/regular.otf');
+ src: local("Regular"), url('fonts/regular.otf') format("truetype");
+ }
+body {
+  font-family: "Light";
+  font-smooth: always;
+  font-size: 18px;
+  margin:0 auto;
+  background: #efefef url("gfx/bg.jpg") fixed no-repeat;
+  background-size:200%;
+  background-position: center;
+  color:#c05c86;
+  }
+#container {
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  text-align: center;
+
+}
+#header1 {
+  width: 33%;
+  text-align:right;
+  position: relative;
+  display: inline-table;
+  vertical-align: top;
+  margin-top: 80px;
+  font-size: 24px;
+}
+#header1 span {
+  color: #dbcdc4;
+}
+#header2 {
+  width: 33%;
+  text-align: center;
+  position: relative;
+  display: inline-table;
+  margin-top: 30px;
+}
+#header3 {
+  width: 33%;
+  text-align: left;
+  position: relative;
+  display: inline-table;;
+  vertical-align: top;
+}
+
+#content {
+  width: 1077px;
+  height: 400px;
+  background: url("gfx/main.jpg");
+  display: inline-table;
+  text-align: left;
+  color: #000;
+  overflow: auto;
+}
+
+#content div {
+  width: 310px;
+  margin-left: 85px;
+  margin-top: 10px;
+  font-size: 17px;
+  float: left;
+}
+
+#content h1 {
+  font-size: 24px;
+  color: #c05c86;
+}
+
+#content span {
+    color: #c05c86;
+}
+
+
+.icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 3px;
+  vertical-align: middle;
+
+}
